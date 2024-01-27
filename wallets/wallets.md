@@ -1,0 +1,1 @@
+### For efficient usage of this CLI program ensure not to delete or manually modify the contents of this folder as this may lead to complete loss of access to wallet.

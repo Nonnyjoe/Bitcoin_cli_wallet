@@ -130,7 +130,7 @@ function listAllAddresses(): [string | undefined] {
     console.log("Accessing all addresses...");
     let history = fetchWalletHistory();
     let allAddresses = history.allAddresses;
-    console.log("All available addresses are: " + allAddresses);
+    console.log("All available addresses are: " + JSON.stringify(allAddresses));
     return allAddresses;
 }
 
