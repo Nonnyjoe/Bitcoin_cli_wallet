@@ -1,0 +1,21 @@
+{
+  "name": "bitcoin_cli_wallet",
+  "version": "1.0.0",
+  "description": "A Bitcoin wallet built using the BitcoinJs Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Idogwu Chinonso",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.5",
+    "crypto": "^1.0.1",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
